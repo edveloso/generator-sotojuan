@@ -1,0 +1,36 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0",
+  "description": "My <%= superb %> module",
+  "license": "MIT",
+  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= humanizedWebsite %>"
+  },<% if (cli) { %>
+  "bin": "cli.js",<% } %>
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "standard | snazzy --verbose && ava --verbose"
+  },
+  "files": [
+    "index.js"<% if (cli) { %>,
+    "cli.js"<% } %>
+  ],
+  "keywords": [<% if (cli) { %>
+    "cli-app",
+    "cli",<% } %>
+    ""
+  ],
+  "dependencies": {<% if (cli) { %>
+    "meow": "^3.7.0"
+  <% } %>},
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "standard": "^7.1.2",
+    "snazzy": "^4.0.0"
+  }
+}
