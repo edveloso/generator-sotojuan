@@ -2,7 +2,6 @@
   "name": "generator-sotojuan",
   "version": "0.0.0",
   "description": "Scaffold a Node module the way I like it",
-  "main": "index.js",
   "repository": "sotojuan/generator-sotojuan",
   "author": {
     "name": "Juan Soto",
