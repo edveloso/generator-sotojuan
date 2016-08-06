@@ -32,7 +32,7 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.16.0",
     "babel-eslint": "^6.1.0",
     "pify": "^2.3.0",
     "snazzy": "^4.0.0",
