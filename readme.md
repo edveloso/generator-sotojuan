@@ -30,4 +30,4 @@ $ yo sotojuan
 
 ## License
 
-MIT © [Juan Soto](https://juansoto.me)
+MIT © [Juan Soto](http://juansoto.me)
