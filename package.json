@@ -1,6 +1,6 @@
 {
   "name": "generator-sotojuan",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Scaffold a Node module the way I like it",
   "repository": "sotojuan/generator-sotojuan",
   "author": {
