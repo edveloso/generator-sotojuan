@@ -1,4 +1,6 @@
-# generator-sotojuan [![Build Status](https://travis-ci.org/sotojuan/generator-sotojuan.svg?branch=master)](https://travis-ci.org/sotojuan/generator-sotojuan)
+# generator-sotojuan
+
+[![Build Status](https://travis-ci.org/sotojuan/generator-sotojuan.svg?branch=master)](https://travis-ci.org/sotojuan/generator-sotojuan)
 
 > Scaffold a Node module the way I like it
 
