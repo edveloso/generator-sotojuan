@@ -19,16 +19,18 @@ With [yo](https://github.com/yeoman/yo):
 ```
 $ yo sotojuan
 ```
+
 ## What's inside
 
 * [AVA](https://github.com/avajs/ava) for testing
 * [standard](https://github.com/feross/standard) and [editorconfig](http://editorconfig.org) for code style
 * [snazzy](https://github.com/feross/snazzy) for nicer linting output
-* [meow](https://github.com/sindresorhus/meow) for CLI options
+* [meow](https://github.com/sindresorhus/meow) for CLI option parsing
 
 ## Tips
 
 * To use async functions with standard, see [this guide](https://github.com/feross/standard#can-i-use-a-custom-js-parser-for-bleeding-edge-es6-or-es7-support)
+* Remember to add new directories and files you create to the `files` array in `package.json`
 
 ## License
 
