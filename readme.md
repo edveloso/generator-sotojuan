@@ -29,7 +29,6 @@ $ yo sotojuan
 
 ## Tips
 
-* To use async functions with standard, see [this guide](https://github.com/feross/standard#can-i-use-a-custom-js-parser-for-bleeding-edge-es6-or-es7-support)
 * Remember to add new directories and files you create to the `files` array in `package.json`
 
 ## License
