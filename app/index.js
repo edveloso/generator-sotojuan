@@ -3,12 +3,12 @@
 const superb = require('superb')
 const normalizeUrl = require('normalize-url')
 const humanizeUrl = require('humanize-url')
-const yeoman = require('yeoman-generator')
+const Generator = require('yeoman-generator')
 const kebab = require('lodash.kebabcase')
 const camel = require('lodash.camelcase')
 
 module.exports =
-  class extends yeoman.Base {
+  class extends Generator {
     constructor (a, b) {
       super(a, b)
 
