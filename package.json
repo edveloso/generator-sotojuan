@@ -36,7 +36,7 @@
     "pify": "^2.3.0",
     "snazzy": "^5.0.0",
     "standard": "^8.3.0",
-    "yeoman-assert": "^2.2.1",
+    "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.4.0"
   },
   "dependencies": {
