@@ -14,7 +14,7 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "test": "standard | snazzy --verbose && ava --verbose"
+    "test": "standard | snazzy --verbose && ava --fail-fast --verbose"
   },
   "files": [
     "index.js"<% if (cli) { %>,
@@ -29,8 +29,8 @@
     "meow": "^3.7.0"
   <% } %>},
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.18.0",
     "standard": "^8.6.0",
-    "snazzy": "^5.0.0"
+    "snazzy": "^6.0.0"
   }
 }
